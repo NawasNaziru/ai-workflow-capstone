@@ -23,14 +23,14 @@ To test app.py
 To test the model directly
 ----------------------------
 
-see the code at the bottom of `prophet_model.py`
+
 
     ~$ python GaussianRegressorModely
 
 To build the docker container
 --------------------------------
 
-    ~$ docker build --tag prophet_app .
+    ~$ docker build --tag gaussian_app .
 
 Check that the image is there.
 
@@ -66,6 +66,6 @@ To run all of the tests
 To run the container 
 --------------------    
 
-    ~$ docker run -p 4000:8080 prophet_app
+    ~$ docker run -p 4000:8080 gaussian_app
 
  
