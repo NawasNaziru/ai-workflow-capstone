@@ -1,13 +1,13 @@
-# IBM AI Enterprise Workflow Capstone - Time Series Forecasting
+# Revenue Prediction using IBM AI Enterprise Workflow
 This repository contains a time series prediction application for the IBM AI Enterprise Workflow Capstone project. 
-The application utilized Facebook's Prophet algorithm, as well as datasets provided by the course.
+The application uses the Scikit Learn Gaussian Process Regressor as well as datasets provided by the course.
 
 This project contains 
 * Unit tests for API, logging, and model
 * run_tests.py for running all tests with a single script
 * monitoring.py for performance monitoring
-* Model_validation.ipynb for model comparison
-* EDA.ipynb for data analysis
+* Model_Evaluation.ipynb for model comparison
+* Model_Visualization.ipynb for data analysis
 * Docker deployment
 
 Usage notes
@@ -25,7 +25,7 @@ To test the model directly
 
 see the code at the bottom of `prophet_model.py`
 
-    ~$ python prophet_model.py
+    ~$ python GaussianRegressorModely
 
 To build the docker container
 --------------------------------
