@@ -3,11 +3,10 @@ This repository contains a time series prediction application for the IBM AI Ent
 The application uses the Scikit Learn Gaussian Process Regressor as well as datasets provided by the course.
 
 This project contains 
-* Unit tests for API, logging, and model
+* Unit tests for API, logging, and model tests based on TDD
 * run_tests.py for running all tests with a single script
 * monitoring.py for performance monitoring
-* Model_Evaluation.ipynb for model comparison
-* Model_Visualization.ipynb for data analysis
+* EDA and Model_Evaluation.ipynb for EDA and models comparison
 * Docker deployment
 
 Usage notes
